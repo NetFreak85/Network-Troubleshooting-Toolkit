@@ -88,3 +88,7 @@ This project is a Python-based Network Troubleshooting Toolkit designed to autom
     chmod +x command_manager.py
     ./command_manager.py
    ```
+
+4. Review Output:
+
+   The script will create .txt files in the same directory, each named after the network device and a timestamp (e.g., `<networkdevicename>-<YEAR>-<MONTH>-<DAY>-<HOUR>-<MIN>-<SEC>.txt)`. These files contain the output of the executed commands.
