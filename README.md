@@ -1,3 +1,5 @@
+![Alt Text](af806e83-9735-4f5a-828a-89960ec5eeee.jpg)
+
 # Network-Troubleshooting-Toolkit
 
 This project is a Python-based Network Troubleshooting Toolkit designed to automate the collection of diagnostic information from multiple network devices simultaneously. It connects to a list of network devices, executes a predefined list of "show" commands, and saves the output to individual, timestamped text files. This tool is specifically built for network troubleshooting and gathering diagnostic data and does not perform any configuration changes on the network devices.
