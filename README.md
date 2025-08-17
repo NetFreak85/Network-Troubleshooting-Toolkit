@@ -35,5 +35,32 @@ This project is a Python-based Network Troubleshooting Toolkit designed to autom
   ```bash
     pip install paramiko pyyaml
   ```
+# Usage
 
+1. Configure Network Devices and Credentials:
+
+Edit the `network_config.yaml` file to add your network device hostnames or IP addresses, along with the SSH credentials and connection options.
+
+```yaml
+  # Authentication variables for SSH
+  Credentials:
+      username : "your_username"
+      password : "your_password"
+
+  # SSH connection options available for the SSH connection
+  SSH_Options:
+      NetworkDevice_SSH_Port : 22
+      NetworkDeviceMaxBuffer : 65535
+      Time_Sleep : 20
+      Allow_agent: True
+      Compress: True
+      Look_for_keys: False
+
+  # Network Device FQDN or IP Address
+  NetworkDevice:
+      - router.1.fqdn
+      - 1.2.3.4
+```
+
+2. 
 
