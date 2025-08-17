@@ -39,7 +39,7 @@ This project is a Python-based Network Troubleshooting Toolkit designed to autom
 
 1. Configure Network Devices and Credentials:
 
-Edit the `network_config.yaml` file to add your network device hostnames or IP addresses, along with the SSH credentials and connection options.
+    Edit the `network_config.yaml` file to add your network device hostnames or IP addresses, along with the SSH credentials and connection options.
 
 ```yaml
   # Authentication variables for SSH
@@ -62,5 +62,29 @@ Edit the `network_config.yaml` file to add your network device hostnames or IP a
       - 1.2.3.4
 ```
 
-2. 
+2. Define Commands:
 
+    Edit the `Command_List.txt` file and enter the "show" commands you want to execute, with one command per line.
+
+    ```bash
+        show version
+        show hardware
+        show module
+        show inventory
+        show ip int brief
+    ```
+
+3. Run the Script:
+
+   Execute the `command_manager.py` script from your terminal:
+
+   ```bash
+     python command_manager.py
+   ```
+
+   or
+
+   ```bash
+    chmod +x command_manager.py
+    ./command_manager.py
+   ```
