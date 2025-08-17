@@ -4,7 +4,7 @@
 
 ## 🙏 Special Thanks to paramiko Project 🙏
 
-This project stands on the shoulders of dedicated work and collaborative spirit. A heartfelt **thank to** to the paramiko library that is fundamental to our ICMP reachability checks. 
+This project stands on the shoulders of dedicated work and collaborative spirit. A heartfelt **thank to** to the paramiko library that is fundamental to gather all the information requested in the `Command_List.txt` file. 
 
 ## How to Contribute
 
