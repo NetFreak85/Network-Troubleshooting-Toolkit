@@ -91,4 +91,8 @@ This project is a Python-based Network Troubleshooting Toolkit designed to autom
 
 4. Review Output:
 
-   The script will create .txt files in the same directory, each named after the network device and a timestamp (e.g., `<networkdevicename>-<YEAR>-<MONTH>-<DAY>-<HOUR>-<MIN>-<SEC>.txt)`. These files contain the output of the executed commands.
+   The script will create .txt files in the same directory, each named after the network device and a timestamp (e.g., `router.1.fqdn-2025-08-17-18-00-00.txt)`. These files contain the output of the executed commands.
+
+# Disclaimer
+
+This tool is provided "as is" and is intended for informational and troubleshooting purposes only. The user assumes all responsibility for its use. The script is designed to only run "show" commands and is not intended for making configuration changes. Any modifications to the script to perform configuration changes are at the user's own risk.
