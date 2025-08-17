@@ -1,0 +1,5 @@
+show version
+show hardware
+show module
+show inventory
+show ip int brief
