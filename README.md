@@ -26,8 +26,12 @@ This project is a Python-based Network Troubleshooting Toolkit designed to autom
 
 1. Clone the repository:
 
-'''bash
+```bash
   git clone https://github.com/your-username/Network-Troubleshooting-Toolkit.git
   cd Network-Troubleshooting-Toolkit
-'''
-2. 
+```
+2. Install the required Python libraries.
+
+  `pip install paramiko pyyaml`
+
+
