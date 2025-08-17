@@ -32,6 +32,8 @@ This project is a Python-based Network Troubleshooting Toolkit designed to autom
 ```
 2. Install the required Python libraries.
 
-  `pip install paramiko pyyaml`
+  ```bash
+    pip install paramiko pyyaml
+  ```
 
 
