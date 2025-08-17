@@ -1,0 +1,27 @@
+####################################################################################
+# Constant Declaration for SSH Connection into the Network Device                  #
+# Yaml File to declare the User Credentials and the list of Network Devices        #
+# As a optional feature, you can upload the files result in the Cisco TAC Web Page #                
+####################################################################################
+
+# Authentication variables for SSH
+Credentials:
+
+    username : ""     # Username for SSH Authentication
+    password : ""     # Password for the Username
+
+# SSH connection options available for the SSH connection
+SSH_Options:
+
+    NetworkDevice_SSH_Port : 22     # Network Device SSH Port number
+    NetworkDeviceMaxBuffer : 65535  # SSH Network Device Buffer
+    Time_Sleep : 20                  # Timer in second to wait for a responds from network device.
+    Allow_agent: True               # When set to True, enables the use of an SSH agent. An SSH agent is a program that holds decrypted private keys in memory. Instead of you having to provide a password or passphrase for your key every time you connect, the SSH client can ask the agent to handle the authentication.
+    Compress: True                  # When set to True, enables gzip compression for the SSH session. This is beneficial on slow or high-latency networks because it reduces the amount of data that needs to be transmitted.
+    Look_for_keys: False            # When set to True, tells the SSH client to automatically search for and use discoverable private key files in standard locations, like the ~/.ssh/ directory. 
+
+# Network Device FQDN or IP Address
+NetworkDevice:
+    - 1.2.3.4
+    - 2.3.4.5
+    - 8.8.8.8
