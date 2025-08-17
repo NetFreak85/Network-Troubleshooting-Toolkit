@@ -8,7 +8,7 @@ This project is a Python-based Network Troubleshooting Toolkit designed to autom
 
 * Secure SSH Connectivity: It leverages the Paramiko library to establish secure SSH connections.
 
-* Customizable: The list of commands to be executed and the network devices to be queried are read from separate files (Command_List.txt and network_config.yaml), allowing for easy customization without modifying the core script.
+* Customizable: The list of commands to be executed and the network devices to be queried are read from separate files (`Command_List.txt` and `network_config.yaml`), allowing for easy customization without modifying the core script.
 
 * Automated Data Collection: It automates the execution of commands like show version, show hardware, and show ip int brief to gather critical troubleshooting data.
 
