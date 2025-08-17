@@ -4,7 +4,7 @@
 
 ## 🙏 Special Thanks to paramiko Project 🙏
 
-This project stands on the shoulders of dedicated work and collaborative spirit. A heartfelt **thank to** to the scapy library that is fundamental to our ICMP reachability checks. 
+This project stands on the shoulders of dedicated work and collaborative spirit. A heartfelt **thank to** to the paramiko library that is fundamental to our ICMP reachability checks. 
 
 ## How to Contribute
 
