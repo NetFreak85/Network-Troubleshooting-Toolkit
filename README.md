@@ -1,6 +1,6 @@
-<img src="images/af806e83-9735-4f5a-828a-89960ec5eeee.jpg" alt="Alt Text" width="500"/>
-
-![Alt Text](images/af806e83-9735-4f5a-828a-89960ec5eeee.jpg)
+<div align="center">
+  <img src="images/af806e83-9735-4f5a-828a-89960ec5eeee.jpg" alt="Alt Text"/>
+</div>
 
 # Network-Troubleshooting-Toolkit
 
