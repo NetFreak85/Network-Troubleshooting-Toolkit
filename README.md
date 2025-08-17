@@ -10,6 +10,14 @@ This project is a Python-based Network Troubleshooting Toolkit designed to autom
 
 * Customizable: The list of commands to be executed and the network devices to be queried are read from separate files (`Command_List.txt` and `network_config.yaml`), allowing for easy customization without modifying the core script.
 
-* Automated Data Collection: It automates the execution of commands like show version, show hardware, and show ip int brief to gather critical troubleshooting data.
+* Automated Data Collection: It automates the execution of commands like `show version`, `show hardware`, and `show ip int brief` to gather critical troubleshooting data.
 
 * Organized Output: The output from each network device is saved to a unique text file, with the filename automatically generated to include the device hostname and a timestamp for easy identification and review.
+
+# Getting Started
+
+## Prerequisites
+
+* Python 3.x
+* The paramiko library (pip install paramiko)
+* The pyyaml library (pip install pyyaml)
