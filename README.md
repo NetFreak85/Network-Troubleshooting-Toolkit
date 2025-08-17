@@ -19,5 +19,15 @@ This project is a Python-based Network Troubleshooting Toolkit designed to autom
 ## Prerequisites
 
 * Python 3.x
-* The paramiko library (pip install paramiko)
-* The pyyaml library (pip install pyyaml)
+* The paramiko library (`pip install paramiko`)
+* The pyyaml library (`pip install pyyaml`)
+
+## Installation
+
+1. Clone the repository:
+
+'''bash
+  git clone https://github.com/your-username/Network-Troubleshooting-Toolkit.git
+  cd Network-Troubleshooting-Toolkit
+'''
+2. 
